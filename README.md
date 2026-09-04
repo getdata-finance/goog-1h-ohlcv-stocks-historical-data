@@ -1,6 +1,6 @@
 # GOOG 1h OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-11_410_rows-blue)](https://getdata.finance/datasets/goog) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/goog)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-21_698_rows-blue)](https://getdata.finance/datasets/goog) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/goog)
 
 ### -> [**Download the full GOOG dataset on getdata.finance**](https://getdata.finance/datasets/goog)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 1h OHLCV** for **Alphabet** (US stocks)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1h`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/goog) · **11,410** `1h` rows in the full archive
+- **Free evaluation sample** on GitHub (`1h`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/goog) · **21,698** `1h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1h` sample updated in sync
 
-> **Sample on GitHub** · `GOOG_1h.csv` (995 rows, `2026-02-06` -> `2026-09-01`, 65.98 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/goog)** — **11,410** `1h` rows (full `1m`: 635,127), **11 timeframes**, `2020-02-25` -> `2026-09-01`.
+> **Sample on GitHub** · `GOOG_1h.csv` (924 rows, `2026-02-24` -> `2026-09-01`, 61.52 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/goog)** — **21,698** `1h` rows (full `1m`: 634,121), **11 timeframes**, `2011-05-09` -> `2026-09-01`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Alphabet · US stocks | Alphabet · US stocks |
 | Timeframes | `1h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1h rows | 995 | **11,410** |
-| Size | 65.98 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/goog) |
-| Period | `2026-02-06` -> `2026-09-01` | `2020-02-25` -> `2026-09-01` |
+| 1h rows | 924 | **21,698** |
+| Size | 61.52 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/goog) |
+| Period | `2026-02-24` -> `2026-09-01` | `2011-05-09` -> `2026-09-01` |
 | File | `GOOG_1h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/goog) |
 | Coverage report | — | [GOOG coverage](https://getdata.finance/coverage/goog) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,11 +75,11 @@ First and latest rows from the GitHub sample **`GOOG_1h.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-06T20:00:00+00:00 | 321.78 | 324.82 | 321.64 | 323.03 | 12352 |
-| 2026-02-09T14:00:00+00:00 | 323.03 | 323.74 | 317.49 | 319.65 | 14032 |
-| 2026-02-09T15:00:00+00:00 | 319.65 | 324.84 | 319.51 | 324.69 | 21315 |
-| 2026-02-09T16:00:00+00:00 | 324.69 | 327.59 | 324.06 | 326.83 | 15047 |
-| 2026-02-09T17:00:00+00:00 | 326.83 | 327.41 | 325.03 | 325.19 | 13014 |
+| 2026-02-24T14:00:00+00:00 | 311.65 | 311.65 | 305.94 | 307.9 | 10251 |
+| 2026-02-24T15:00:00+00:00 | 307.9 | 310.37 | 306.03 | 309.73 | 21894 |
+| 2026-02-24T16:00:00+00:00 | 309.73 | 311.31 | 309.7 | 311.12 | 14337 |
+| 2026-02-24T17:00:00+00:00 | 311.12 | 312.26 | 310.81 | 311 | 10142 |
+| 2026-02-24T18:00:00+00:00 | 311 | 311.51 | 310.26 | 310.46 | 9538 |
 
 **Last rows**
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **GOOG** archive on **[getdata.finance](https://getdata.finance/datasets/goog)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **11,410** rows at `1h`, plus all other timeframes in the same ZIP.
+The complete **GOOG** archive on **[getdata.finance](https://getdata.finance/datasets/goog)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **21,698** rows at `1h`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full GOOG dataset on getdata.finance](https://getdata.finance/datasets/goog)**
 
